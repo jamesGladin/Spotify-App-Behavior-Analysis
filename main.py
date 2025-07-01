@@ -3,7 +3,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # Load the dataset
-df = pd.read_csv(r"C:\Users\gladi\Downloads\spotify_user_behavior_sample.csv")
+df = pd.read_csv("spotify_user_behavior_sample.csv")
 
 # Convert date to datetime
 df['date'] = pd.to_datetime(df['date'])
